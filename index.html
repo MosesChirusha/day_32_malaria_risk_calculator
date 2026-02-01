@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Day 32 — Malaria Risk Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Malaria Risk Calculator</h1>
+    <p class="subtitle">
+      A simple tool to help communities understand malaria risk factors and prevention steps.
+    </p>
+
+    <form id="riskForm">
+      <div class="group">
+        <label>Location Type</label>
+        <select id="location">
+          <option value="urban">Urban</option>
+          <option value="rural">Rural</option>
+        </select>
+      </div>
+
+      <div class="group">
+        <label>Standing Water Near Home</label>
+        <select id="water">
+          <option value="no">No</option>
+          <option value="yes">Yes</option>
+        </select>
+      </div>
+
+      <div class="group">
+        <label>Use of Bed Nets</label>
+        <select id="nets">
+          <option value="always">Always</option>
+          <option value="sometimes">Sometimes</option>
+          <option value="never">Never</option>
+        </select>
+      </div>
+
+      <div class="group">
+        <label>Recent Rainfall in Area</label>
+        <select id="rain">
+          <option value="low">Low</option>
+          <option value="medium">Medium</option>
+          <option value="high">High</option>
+        </select>
+      </div>
+
+      <div class="group">
+        <label>Children or Pregnant People in Household</label>
+        <select id="vulnerable">
+          <option value="no">No</option>
+          <option value="yes">Yes</option>
+        </select>
+      </div>
+
+      <button type="submit">Check Risk</button>
+    </form>
+
+    <div id="resultBox" class="hidden">
+      <h2 id="riskLevel"></h2>
+      <p id="riskMessage"></p>
+      <h3>Prevention Tips</h3>
+      <ul id="tipsList"></ul>
+    </div>
+
+    <footer>
+      Day 32/90 — Built for community health awareness and malaria prevention
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
