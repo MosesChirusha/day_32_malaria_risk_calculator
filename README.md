@@ -14,6 +14,12 @@ Low awareness of everyday malaria risk factors leads to delayed prevention and t
 **Solution**  
 An interactive risk assessment tool that evaluates environmental and behavioral factors and presents users with a clear risk level and tailored prevention tips.
 
+**Demo**  
+https://moseschirusha.github.io/day_32_malaria_risk_calculator
+
+**Article** 
+https://moseschirusha.medium.com/how-a-simple-web-tool-is-helping-communities-understand-their-malaria-risk-before-its-too-late-4b4828f97e35
+
 ---
 
 ## Tech Stack
